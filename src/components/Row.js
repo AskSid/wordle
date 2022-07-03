@@ -14,7 +14,7 @@ const Row = ({ word, correctWord, showColor }) => {
             return 'gray'
         }
     } else {
-        return 'gray'
+        return '#404040'
     }
 }
 
