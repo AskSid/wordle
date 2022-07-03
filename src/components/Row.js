@@ -1,8 +1,6 @@
-import { useState } from 'react'
 import Square from './Square'
 
 const Row = ({ word, correctWord, showColor }) => {
-  const [accountedFor, setAccountedFor] = useState([false, false, false, false, false])
 
   function getColor(letterNum) {
       if (showColor) {

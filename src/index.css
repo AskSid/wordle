@@ -48,3 +48,12 @@ body {
   font-size: 30px;
   border-radius: 20px;
 }
+
+.key {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+}
