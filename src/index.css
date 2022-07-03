@@ -34,26 +34,21 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.result {
+.result, button {
   color: white;
-  background-color: blue;
-  text-align: center;
   width: 300px;
   height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 55px;
-  padding-left: 10px;
-  padding-right: 10px;
   font-size: 30px;
-  border-radius: 20px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
-.key {
-  width: 60px;
-  height: 60px;
-  background-color: gray;
-  border-radius: 10px;
-  margin-right: 10px;
-  border: none;
+button {
+  margin-top: 20px;
+  background-color: steelblue;
+  cursor: pointer;
 }

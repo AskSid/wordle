@@ -41,13 +41,11 @@ function App() {
   }
 
   function enterWord(key) {
-    console.log(guesses)
     numGuesses += 1
     checkIfCorrect()
     let temp3 = guesses
     temp3[numGuesses - 1].current = false
     setGuesses(temp3)
-    console.log('Entered.')
   }
 
   function deleteKey(key) {
@@ -71,13 +69,10 @@ function App() {
   }
 
   function checkIfCorrect() {
-    console.log(guesses[numGuesses - 1].row)
-    console.log(correctWord)
-  
     if (arrayEquals(guesses[numGuesses - 1].row, correctWord.split(''))) {
       setResult('You got the word!')
     } else if (numGuesses === 6){
-      setResult('the word was ' + correctWord + '!')
+      setResult('The word was ' + correctWord + '!')
     }
   }
 
